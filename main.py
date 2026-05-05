@@ -2,7 +2,7 @@ import streamlit as st
 from prediction_helper import predict
 
 
-st.title("Lauki Finance: Credit Risk Modeling")
+st.title("Lauki Finance: Credit Risk Modeling & Scoring Platform")
 
 # Create rows of three columns each
 row1 = st.columns(3)
