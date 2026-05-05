@@ -38,6 +38,37 @@ This project demonstrates how machine learning can support:
 - Joblib
 - Git
 
+  ## Model Performance
+
+After feature engineering, class imbalance handling, and hyperparameter optimization:
+
+### Best Production Model
+**Optuna-Tuned Logistic Regression + SMOTE-Tomek**
+
+| Metric | Score |
+|--------|-------|
+| Accuracy | 93% |
+| Cross-Validated Macro F1 | 0.945 |
+| Weighted F1 | 0.94 |
+| Default-Class Recall | 94% |
+| Default-Class Precision | 57% |
+
+### Business Impact
+The model successfully identifies high-risk borrowers with high sensitivity:
+
+- Detects **94% of potential defaults**
+- Maintains **93% overall prediction accuracy**
+- Produces interpretable credit scores from **300–900**
+- Supports real-time underwriting decisions via deployed dashboard
+
+### Deployment
+The final model was deployed using:
+
+- :contentReference[oaicite:2]{index=2}
+- :contentReference[oaicite:3]{index=3}
+- `joblib`
+- `scikit-learn`
+
 ## Deployment
 - GitHub
 - Streamlit Cloud
