@@ -10,7 +10,7 @@ The system:
 - supports real-time risk assessment through an interactive dashboard
 
 ## Live Demo
-[Streamlit App](YOUR_STREAMLIT_LINK)
+[Streamlit App](https://cyril-ml-project-credit-risk-model.streamlit.app/)
 
 ## Business Problem
 Financial institutions need reliable methods for evaluating borrower risk before loan approval.
