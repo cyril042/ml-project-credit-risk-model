@@ -1,4 +1,4 @@
-# Lauki Finance: Credit Risk Modeling
+# Credit Risk Modeling & Deployment
 
 ## Overview
 This project develops an end-to-end machine learning solution for credit risk assessment.
