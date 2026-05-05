@@ -1,4 +1,4 @@
-# Credit Risk Modeling & Deployment
+# Credit Risk Modeling & Scoring Platform
 
 ## Overview
 This project develops an end-to-end machine learning solution for credit risk assessment.
