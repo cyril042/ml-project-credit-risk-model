@@ -62,14 +62,7 @@ The model successfully identifies high-risk borrowers with high sensitivity:
 - Supports real-time underwriting decisions via deployed dashboard
 
 ### Deployment
-The final model was deployed using:
-
-- :contentReference[oaicite:2]{index=2}
-- :contentReference[oaicite:3]{index=3}
-- `joblib`
-- `scikit-learn`
-
-## Deployment
+The final model was saved using joblib and deployed using:
 - GitHub
 - Streamlit Cloud
 
